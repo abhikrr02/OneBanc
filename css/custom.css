@@ -1,0 +1,130 @@
+body {
+    background: #fff;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    color: #767676;
+    margin-top: 100px;
+}
+
+.nav-solid {
+    position: relative;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+    background-color: grey;
+}
+
+.navigation {
+    position: relative;
+}
+
+.container-fluid {
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-header {
+    width: 100%;
+    padding-right: 0;
+    float: none;
+}
+
+.logo-container {
+    padding: 0 15px;
+    margin-top: 8px;
+    float: left;
+}
+
+.logo-wrap {
+    display: table;
+    width: 100%;
+
+}
+
+.site-footer {
+    background-color: #2a2a2a;
+    padding: 20px 0px;
+}
+
+.additional {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container {
+    width: auto;
+    padding: 0 48px;
+}
+
+.copyright {
+    color: #909090;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.boxing {
+    background-color: wheat;
+    height: 100px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+.rupee{
+    background-position:left;
+    width: 10px; 
+    height: 14px;
+    background-image: url('http://i.stack.imgur.com/vJZ9m.png');
+    display:block; 
+    background-repeat: no-repeat;
+}
+
+.boxing2 {
+    font-size: 30px;
+    padding: 12px;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.float-right {
+    float: right;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.boxing3 {
+    font-size: 12px;
+    margin-left: 16px;
+}
+
+.horiz{
+    display: flex;
+    flex-direction: row;
+}
+
+.date {
+    width: 100px;
+    margin: auto;
+}
+.arrow-right {
+    height: 16px;
+    width: 12px;
+    float: right;
+    margin-right: 24px;;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+hr {
+    border:none;
+    border-top: 3.5px dotted black;
+    color:#fff;
+    background-color:#fff;
+    height:1px;
+    width:50%;
+  }
